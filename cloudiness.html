@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Python API Challenge Data Visualization</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class='data-body'>
+    <!-- add a top of page -->
+<a name="top"></a>
+
+<!-- nav bar -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #61c993;">
+  <form class="form-inline">
+    <a class="btn btn-outline-success" href="index.html" id='main-button'>Latitude</a>
+  </form>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="lang nav navbar-nav navbar-right">
+      <li class="nav-item">
+        <a class="nav-link" href="#bot">Bottom</a>
+      </li>
+    <li class="nav-item">
+        <a class="nav-link" href="Data.html">Data</a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" href="Comparison.html">Comparisons</a>
+      </li>
+      <li class="nav-item">
+       <div class="dropdown">
+        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          City Weather Project
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="temperature.html">Temperature</a>
+          <a class="dropdown-item" href="humidity.html">Humidity</a>
+          <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+        </div>
+       </div>
+      </li>
+    </ul>
+  </div>
+  </nav> 
+ <div class="container">
+
+    <!-- Our columns function in rows. -->
+<div class="row content">
+        <div class="col-sm-12 col-md-8 col-lg-8 factor-col">
+            <h2 class="text-left data-title">Cloudiness</h2>
+            <hr class="my-4">
+            <img src="Resources/assets/images/Fig3.png" alt="Latitude vs Cloudiness" class="factor-image">
+            <p class="factor-p">This graph shows the relative Cloudiness of each sample cities compared against those cities' relative Latitudes.  From the graph, we can clearly see that there is no definitive correlation between the two factors.</p>
+            <p>Cloudiness is generally affected by factors largely directly unrelated to distance from the equator: local geography or terrain, humidity, air temperature are just a few relevant factors. We also look at the relationship between distance to the equator and humidity for our sample of cities.  Perhaps there is some stronger correlationship between the three, as humidity affects cloud formation.</p>
+        </div>
+
+    <div class="col-sm-12 col-md-4 col-lg-4" >
+        <div class="factor-col">
+            <h2 class="text-left data-title visuals">Visualizations</h2>
+            <hr class="my-4">
+            <a href="temperature.html">
+                <img src="Resources/assets/images/Fig1.png" class="rounded float-left thumbnail" alt="Latitude vs Temperature">
+            </a>
+            <a href="Humidity.html">
+                <img src="Resources/assets/images/Fig2.png".png class="rounded float right thumbnail" alt="Latitude vs Humidity">
+            </a>
+            <a href="Cloudiness.html">
+                <img src="Resources/assets/images/Fig3.png" class="rounded float-left  thumbnail" alt="Latitude vs Temperature">
+            </a>
+            <a href="WindSpeed.html">
+                <img src="Resources/assets/images/Fig4.png" class="rounded float right  thumbnail" alt="Latitude vs Humidity">
+            </a>
+        </div>
+    </div>
+</div>  
+    </div>
+   
+     
+     <a name="bot"></a> 
+        <!-- add button back to top -->
+        <a type="button" class="btn btn-secondary btn-sm" href="#top" role='button'>Top</a>
+<!-- add script source -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

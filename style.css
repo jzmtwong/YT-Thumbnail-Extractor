@@ -1,0 +1,101 @@
+
+
+
+.data-body {
+    background-color: gainsboro;
+    border: 100px;
+}
+
+.data-title {
+        color:#61c993;
+    padding: 20px;
+}
+
+.main-image {      
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    float: left;
+}
+
+.thumbnail {
+  width:50%;
+}
+
+.factor-image {      
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    float: left;
+}
+.factor-p {
+    clear:both;
+    text-align:justify;
+    padding: 20px;
+}
+
+.factor-col {
+    padding: 20px;
+    box-shadow: 5px 7px;
+    background-color: white;
+    border: 100px; 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+}
+
+#main-button{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bolder;
+  background-color:darkgreen
+    
+}
+
+#main-button:hover{
+    background-color: violet;
+}
+
+ul.lang a{
+     position: relative;
+    right: -710px;
+}
+div.dropdown-menu.show {
+    right: -710px;   
+}
+
+a.btn.btn-secondary.btn-sm {
+    background-color: #61c993;
+}
+
+.table-hover tbody tr:hover td {
+    background:#61c993;
+}
+/* media queries */
+@media  only screen and (max-width: 1200px) {
+    .data-body {
+    background-color: violet;
+    border: 50px;
+    }
+
+  ul.lang a{
+   position: static;
+  }
+ 
+  .factor-col {
+    padding: 50px;
+    border: 50px;
+    border-color: violet;
+    border-style: solid;
+    box-shadow: 0px 0px;
+    }
+
+  .table-hover tbody tr:hover td {
+    background:violet
+    }
+    .visuals {
+    font-size: 18px;
+    }
+}
