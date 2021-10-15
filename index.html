@@ -45,9 +45,12 @@
             <h2 class="text-left data-title">YouTube Thumbnail Extractor</h2>
             <hr class="my-4">
             <p>Put in a Youtube video Url in the prompt below and watch as we extract the URL of you!.</p>
-            <div class="topnav">
-                  <input type="text" placeholder="URL HERE..">
-            </div> 
+
+                <form action="action_to_perform_after_submission" method = "POST">
+                    <p> <input type = "text"  placeholder="URL HERE.." name = "yt_url" /></p>
+                    <!-- <p><input type = "submit" value = "submit" /></p> -->
+                </form>
+
             <p>Thanks for your participation in advance!</p>
         </div>
     <div class="col-sm-12 col-md-4 col-lg-4" >
@@ -55,6 +58,7 @@
             <hr>
             <a href="Image URL Link">
             </a>
+            <p>{{img_url}}</p>
             <a href="Image Imbedded Below!">
             </a>
         </div>
