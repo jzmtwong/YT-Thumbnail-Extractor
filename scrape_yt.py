@@ -1,8 +1,4 @@
-from splinter import Browser
-from bs4 import BeautifulSoup as bs
-import requests
-import os
-import time
+
 
 
 def init_browser():
@@ -14,6 +10,9 @@ def init_browser():
 def yt_extract(url):
     #import soup
     from bs4 import BeautifulSoup
+    from splinter import Browser
+    import os
+    import requests
     #create brower visit
     response = requests.get(url)
     #taking time to load, so need to sleep to refresh

@@ -17,5 +17,8 @@ def home():
    return render_template('index.html')
    img_url = yt_extract(yt_url)
 
+   #return index template and img url
+   return index tempalte("index.html",
+
 if __name__ == "__main__":
     app.run(debug=True)
